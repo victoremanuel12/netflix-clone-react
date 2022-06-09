@@ -5,7 +5,6 @@ import Youtube from 'react-youtube'
 import movieTrailer from 'movie-trailer'
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
-import CircularProgress from '@mui/material/CircularProgress';
 
 const BASE_URL_IMG = "https://image.tmdb.org/t/p/original/"
 
