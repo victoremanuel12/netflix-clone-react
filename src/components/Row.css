@@ -1,0 +1,68 @@
+
+.row h2 {
+    margin-left:  30px;
+    color: white;
+}
+.row__listarea{
+    overflow-x: hidden;
+}
+.row__list{
+    transition: all ease 1s;
+}
+.row__item{
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+    
+}
+.row__item__img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 30px;
+    object-fit: contain;
+    transform: scale(0.9) ;
+    transition: all ease 0.3s;
+    border-radius: 10px;
+
+
+}
+.row__item__img:hover{
+    transform: scale(1);
+
+}
+.row--left, .row--right{
+    position: absolute;
+    width: 40px;
+    height: 220px ;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.164);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    opacity: 0;
+    
+    
+}
+.row--left{
+    left: 0;
+}
+.row--right{
+    right: 0;
+}
+.row__listarea:hover .row--left,
+.row__listarea:hover .row--right{
+    transition: 0.6s linear;
+    opacity: 1;
+}
+
+@media screen and ( max-width:667px) {
+    .row__listarea{
+        padding: 0;
+    }
+    .row h2{
+        margin-left:15px ;
+    }
+}
