@@ -41,9 +41,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    overflow: hidden;
-    opacity: 0;
-    
+    overflow: hidden;    
     
 }
 .row--left{
@@ -52,11 +50,7 @@
 .row--right{
     right: 0;
 }
-.row__listarea:hover .row--left,
-.row__listarea:hover .row--right{
-    transition: 0.6s linear;
-    opacity: 1;
-}
+
 
 @media screen and ( max-width:667px) {
     .row__listarea{
