@@ -11,11 +11,11 @@ function App() {
       <Nav/>
       <Banner/>
       <Row title='Originais Netflix' fetchUrl={requests.fetchNetflixOriginals}/>
-      <Row title='Em alta' fetchUrl={requests.fetchTrending}/>
-      <Row title='Mais votados' fetchUrl={requests.fetchTopRated}/>
-      <Row title='Filmes de ação' fetchUrl={requests.fetchActionMovies}/>
-      <Row title='Filmes de comédia' fetchUrl={requests.fetchComedyMovies}/>
-      <Row title='Filmes de terror' fetchUrl={requests.fetchHorrorMovies}/>
+      <Row title='Em Alta' fetchUrl={requests.fetchTrending}/>
+      <Row title='Mais Votados' fetchUrl={requests.fetchTopRated}/>
+      <Row title='Filmes de Ação' fetchUrl={requests.fetchActionMovies}/>
+      <Row title='Filmes de Comédia' fetchUrl={requests.fetchComedyMovies}/>
+      <Row title='Filmes de Terror' fetchUrl={requests.fetchHorrorMovies}/>
       <Row title='Filmes de Romance' fetchUrl={requests.fetchRomanceMovies}/>
       <Row title='Documentários' fetchUrl={requests.fetchDocumantaries}/>
       <Footer/>
