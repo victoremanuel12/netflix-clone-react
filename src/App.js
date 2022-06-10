@@ -16,7 +16,7 @@ function App() {
       <Row title='Filmes de ação' fetchUrl={requests.fetchActionMovies}/>
       <Row title='Filmes de comédia' fetchUrl={requests.fetchComedyMovies}/>
       <Row title='Filmes de terror' fetchUrl={requests.fetchHorrorMovies}/>
-      <Row title='Filmes de terror' fetchUrl={requests.fetchRomanceMovies}/>
+      <Row title='Filmes de Romance' fetchUrl={requests.fetchRomanceMovies}/>
       <Row title='Documentários' fetchUrl={requests.fetchDocumantaries}/>
       <Footer/>
 
